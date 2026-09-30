@@ -1,5 +1,6 @@
 static class Task1
 {
+    /// <summary>Prompts for a user's name and age, then prints a personalized greeting.</summary>
     public static void Run()
     {
         Console.WriteLine("Personalized Greeting");
@@ -13,6 +14,7 @@ static class Task1
 
 static class Task2
 {
+    /// <summary>Checks the entered level against the configured user permission rules.</summary>
     public static void Run()
     {
         Console.WriteLine("User Permission Check");
@@ -37,6 +39,7 @@ static class Task2
 
 static class Task3
 {
+    /// <summary>Converts the medicine schedule between the entered GMT offsets.</summary>
     public static void Run()
     {
         Console.WriteLine("Time Conversion");
@@ -45,7 +48,7 @@ static class Task3
         Console.WriteLine("Enter current GMT");
         int currentGMT = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Current Medicine Schedule:");
-        DisplayTime();
+        DisplayTime(times);
         Console.WriteLine("Enter new GMT");
         int newGMT = Convert.ToInt32(Console.ReadLine());
 
@@ -66,35 +69,37 @@ static class Task3
         }
 
         Console.WriteLine("New Medicine Schedule:");
-        DisplayTime();
+        DisplayTime(times);
+    }
 
-        void DisplayTime()
+    /// <summary>Prints each schedule time in hour-and-minute format.</summary>
+    private static void DisplayTime(int[] times)
+    {
+        foreach (int value in times)
         {
-            foreach (int value in times)
+            string time = value.ToString();
+            int length = time.Length;
+            if (length >= 3)
             {
-                string time = value.ToString();
-                int length = time.Length;
-                if (length >= 3)
-                {
-                    time = time.Insert(length - 2, ":");
-                }
-                else if (length == 2)
-                {
-                    time = time.Insert(0, "0:");
-                }
-                else
-                {
-                    time = time.Insert(0, "0:0");
-                }
-                Console.Write($"{time} ");
+                time = time.Insert(length - 2, ":");
             }
-            Console.WriteLine();
+            else if (length == 2)
+            {
+                time = time.Insert(0, "0:");
+            }
+            else
+            {
+                time = time.Insert(0, "0:0");
+            }
+            Console.Write($"{time} ");
         }
+        Console.WriteLine();
     }
 }
 
 static class Task4
 {
+    /// <summary>Validates and reports the configured IPv4 address examples.</summary>
     public static void Run()
     {
         Console.WriteLine("IP checker");
@@ -116,6 +121,7 @@ static class Task4
 
 static class Task5
 {
+    /// <summary>Selects and prints a randomized fortune.</summary>
     public static void Run()
     {
         Console.WriteLine("Randomized Fortune Teller");
