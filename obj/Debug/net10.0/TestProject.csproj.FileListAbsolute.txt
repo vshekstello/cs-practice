@@ -7,9 +7,9 @@ C:\Users\Vanil\Desktop\hex tech\accent\CsharpProjects\TestProject\obj\Debug\net1
 C:\Users\Vanil\Desktop\hex tech\accent\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.AssemblyInfoInputs.cache
 C:\Users\Vanil\Desktop\hex tech\accent\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.AssemblyInfo.cs
 C:\Users\Vanil\Desktop\hex tech\accent\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\Vanil\Desktop\hex tech\accent\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.sourcelink.json
 C:\Users\Vanil\Desktop\hex tech\accent\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.dll
 C:\Users\Vanil\Desktop\hex tech\accent\CsharpProjects\TestProject\obj\Debug\net10.0\refint\TestProject.dll
 C:\Users\Vanil\Desktop\hex tech\accent\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.pdb
 C:\Users\Vanil\Desktop\hex tech\accent\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.genruntimeconfig.cache
 C:\Users\Vanil\Desktop\hex tech\accent\CsharpProjects\TestProject\obj\Debug\net10.0\ref\TestProject.dll
-C:\Users\Vanil\Desktop\hex tech\accent\CsharpProjects\TestProject\obj\Debug\net10.0\TestProject.sourcelink.json
