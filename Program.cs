@@ -1,7 +1,7 @@
 ﻿while (true)
 {
 	Console.WriteLine("\n Select a task (1-5) or 0 to quit: ");
-    Console.WriteLine("1. Personalized greeting \n2. User Permission Check \n3. Timezone Conversion \n4.IP validator \n5. Randomized fortune teller");
+    Console.WriteLine("1. Personalized greeting \n2. User Permission Check \n3. Timezone Conversion \n4. IP validator \n5. Randomized fortune teller");
 	string? selection = Console.ReadLine();
 
 	if (selection == "0")
@@ -31,4 +31,5 @@
 			break;
 	}
 }
+
 
